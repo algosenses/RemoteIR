@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="menu_start" />
+  <item type="id" name="menu_stop" />
+  <item type="id" name="menu_devices" />
+  <item type="id" name="menu_learn" />
+  <item type="id" name="menu_about" />
+  <item type="id" name="menu_learn_done" />
+  <item type="id" name="menu_exit" />
+</resources>

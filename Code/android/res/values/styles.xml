@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="radioButtonStyle">
+        <item name="android:button">@null</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

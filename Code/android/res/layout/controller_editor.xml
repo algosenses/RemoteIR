@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+	<com.airremote.android.editor.DragLayer
+	    android:id="@+id/drag_layer"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+	<TextView
+		android:id="@+id/Text1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/app_name"
+	    />
+	<ImageView
+	    android:id="@+id/Image1"
+	    android:src="@drawable/btn_2"
+	    android:layout_weight="50"
+	    android:adjustViewBounds="true"
+	    android:layout_width="80dp"
+	    android:layout_height="100dp" />
+	<ImageView
+	    android:id="@+id/Image2"
+	    android:src="@drawable/btn_3"
+	    android:layout_weight="50"
+	    android:adjustViewBounds="true"
+	    android:layout_width="50dp"
+	    android:layout_height="80dp" />
+	
+	</com.airremote.android.editor.DragLayer>
+	<LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_alignParentBottom="true" >
+         <LinearLayout android:layout_width="fill_parent"
+             android:layout_height="wrap_content" 
+             android:gravity="center_vertical"
+             android:background="@drawable/img_btn_bg" >
+             <Button android:id="@+id/btn_list_show" 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Show" 
+                 android:background="@drawable/button"
+                 android:layout_marginRight="40.0dip"
+                 android:layout_marginLeft="40.0dip"
+                 android:layout_weight="1"
+                 android:textSize="28px"
+                 android:textColor="@color/button_white_text" />
+         </LinearLayout>
+         <ViewStub android:id="@+id/viewstub_btn_selection" 
+             android:layout="@layout/btn_selection_layout"
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content" /> 
+     </LinearLayout>
+</RelativeLayout>	

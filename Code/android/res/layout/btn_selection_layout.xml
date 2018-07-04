@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    
+    
+    <RadioGroup android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/btn_sel_digit"/>
+        
+        <RadioButton style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/btn_sel_function"/>
+        
+        <RadioButton style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/btn_sel_direction"/>
+        
+        <RadioButton style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_weight="1"
+            android:text="@string/btn_sel_user" />
+        
+    </RadioGroup>
+    
+</RelativeLayout>

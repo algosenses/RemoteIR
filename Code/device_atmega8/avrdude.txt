@@ -1,0 +1,1 @@
+F:\devel\arduino\arduino-1.0.2\hardware/tools/avr/bin/avrdude -CF:\devel\arduino\arduino-1.0.2\hardware/tools/avr/etc/avrdude.conf -v -v -v -v -patmega8 -cwiring -P\\.\COM10 -b9600 -D -Uflash:w:airremote.hex:i

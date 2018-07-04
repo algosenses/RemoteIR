@@ -1,0 +1,47 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<TableLayout android:id="@+id/TableLayout01" android:layout_alignParentTop="true" android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:stretchColumns="0,1,2" android:layout_height="wrap_content" android:background="@drawable/apple_bg">
+
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vol_up_str" android:id="@+id/apple_volup" android:layout_weight="50" android:drawableTop="@drawable/speaker_plus"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mute" android:id="@+id/apple_mute" android:layout_weight="50" android:drawableTop="@drawable/speaker_off"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvplus" android:id="@+id/apple_next" android:layout_weight="50" android:drawableTop="@drawable/tv_plus"/>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vol_down_str" android:id="@+id/apple_voldn" android:layout_weight="50" android:drawableTop="@drawable/speaker_minus"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power" android:id="@+id/apple_power" android:layout_weight="50" android:drawableTop="@drawable/stop"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvminus" android:id="@+id/apple_prev" android:layout_weight="50" android:drawableTop="@drawable/tv_minus"/>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_1" android:layout_weight="50" android:drawableTop="@drawable/btn_1"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_2" android:layout_weight="50" android:drawableTop="@drawable/btn_2"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_3" android:layout_weight="50" android:drawableTop="@drawable/btn_3"/>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_4" android:layout_weight="50" android:drawableTop="@drawable/btn_4"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_5" android:layout_weight="50" android:drawableTop="@drawable/btn_5"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_6" android:layout_weight="50" android:drawableTop="@drawable/btn_6"/>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_7" android:layout_weight="50" android:drawableTop="@drawable/btn_7"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_8" android:layout_weight="50" android:drawableTop="@drawable/btn_8"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_9" android:layout_weight="50" android:drawableTop="@drawable/btn_9"/>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_info" android:layout_weight="50" android:drawableTop="@drawable/btn_info"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/digit_0" android:layout_weight="50" android:drawableTop="@drawable/btn_0"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_mute" android:layout_weight="50" android:drawableTop="@drawable/btn_mute"/>
+</TableRow>
+
+</TableLayout>
+</ScrollView>
+</RelativeLayout>
